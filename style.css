@@ -1,0 +1,32 @@
+.body {
+	background-color: rgb(199, 209, 218);
+	text-align: center ;
+}
+.main-content {
+	text-align: center;
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+	width: 50%;
+	margin: 5% 25%;
+	background-color: rgb(103, 205, 205);
+}
+
+.hide {
+	display: none;
+}
+
+.signUp, .logIn {
+	min-height: 250px;
+	min-width: 250px;
+}
+
+.signUp-div, .logIn-div {
+	margin: 5%;
+}
+
+.error {
+	border: 1.5px solid red;
+}
+
+.success {
+	border: 1.5px solid green; 
+}

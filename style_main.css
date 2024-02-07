@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+}
+
+.nav-bar {
+	background-color: #000;
+}
+
+.nav-bar__list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.nav-bar__list-link {
+	list-style-type: none;
+	min-width: 100px;
+	text-align: center;
+	height: 20px;
+	padding: 10px 0;
+	cursor: pointer;
+}
+
+.nav-bar__link {
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+
+.active {
+	background-color: #cccccc;
+}
+
+.hide {
+	display: none;
+}
+
+.main-content {
+	display: flex;
+	margin: 3% 5%;	
+}
+
+.table {
+	border: 1px solid;
+}
+
+.main-content__form-div {
+	padding: 10% 0;
+}
+
+.submit-btn {
+	padding : 0 17%;
+}
+
+.table-head_size {
+	width: 100px;
+	height: 50px;
+}
+
+.table-row {
+ text-align: center;
+}
+
+.main-heading {
+	text-align: center;
+}
+
+.log-out-div {
+	text-align: center;
+}

@@ -1,0 +1,63 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>To-Do List</title>
+		<link rel="stylesheet" href="style_main.css" />
+	</head>
+	<body>
+		<section class="nav-bar">
+			<ul class="nav-bar__list">
+				<li class="nav-bar__list-link list-home active"><a href="#" class="nav-bar__link nav-bar__home">Home</a>
+				</li>
+				<li class="nav-bar__list-link list-allTask"><a href="#" class="nav-bar__link nav-bar__all-task">All Task</a>
+				</li>
+				<li class="nav-bar__list-link list-completedTask"><a href="#"
+						class="nav-bar__link nav-bar__completed-task">Completed Task</a></li>
+			</ul>
+		</section>
+		<div class="main-heading">
+			<h1> To-Do List</h1>
+		</div>
+		<div class="main-content">
+			<div class="main-content__form">
+				<div class="main-content__form-div">
+					<span>Time</span>
+					<input type="text" class="main-content__form_input-time">
+				</div>
+				<div class="main-content__form-div">
+					<span>Task</span>
+					<input type="text" class="main-content__form_input-task">
+				</div>
+				<div class="main-content__form-div submit-btn">
+					<button class="main-content__form-submit">Submit</button>
+				</div>
+			</div>
+			<div class="main-content__all_task hide">
+				<table class="main-content__all_task-table table" rules="all">
+					<thead>
+						<th class="table-head_size">SNo</th>
+						<th class="table-head_size">Time</th>
+						<th class="table-head_size">Task</th>
+						<th class="table-head_size">Status</th>
+					</thead>
+					<tbody class="main-content__all_task-table_body"></tbody>
+				</table>
+			</div>
+			<div class="main-content__completed_task hide">
+				<table class="main-content__completed_task-table table" rules="all">
+					<thead>
+						<th class="table-head_size">SNo</th>
+						<th class="table-head_size">Time</th>
+						<th class="table-head_size">Task</th>
+						<th class="table-head_size">Status</th>
+					</thead>
+					<tbody class="main-content__completed_task-table_body"></tbody>
+				</table>
+			</div>
+		</div>
+		<div class="log-out-div">
+			<button class="logOut">Log Out</button>
+		</div>
+		<script src="script_main.js"></script>
+	</body>
+</html>
